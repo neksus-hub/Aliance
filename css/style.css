@@ -62,6 +62,14 @@ body {
   top: 0;
   z-index: 2;
   width: 100%;
+  transition: background-color 0.3s;
+}
+.navbar-light {
+  background-color: #fff;
+  color: #292d33;
+}
+.navbar-light .header-logo-path {
+  fill: #292d33;
 }
 .header-phone {
   flex-shrink: 0;
