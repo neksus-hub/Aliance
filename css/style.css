@@ -16,6 +16,7 @@ body {
 .header {
   max-height: 970px;
   margin-bottom: 150px;
+  padding-top: 94px;
 }
 .container {
   max-width: 1440px;
@@ -55,8 +56,12 @@ body {
   align-items: center;
   color: white;
   height: 94px;
-  position: relative;
+  position: fixed;
   border-bottom: 1px solid rgba(235, 235, 240, 0.2);
+  left: 0;
+  top: 0;
+  z-index: 2;
+  width: 100%;
 }
 .header-phone {
   flex-shrink: 0;
