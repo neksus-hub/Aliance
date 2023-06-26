@@ -49,7 +49,7 @@ body {
 .header-nav-link {
   text-decoration: none;
   font-size: 16px;
-  margin-right: 50px;
+  margin-right: 51px;
   color: inherit;
 }
 .navbar {
@@ -150,6 +150,9 @@ body {
   color: white;
   font-size: 16px;
   line-height: 160%;
+  margin: 17px -1px;
+  word-spacing: 1.8px;
+  letter-spacing: -0.1px;
 }
 .header-features-item {
   padding: 29px 50px;
@@ -192,7 +195,7 @@ body {
   font-size: 48px;
   font-family: Bebas Neue;
   line-height: 120%;
-  margin-bottom: 36px;
+  margin-bottom: 34px;
   display: flex;
   align-items: center;
 }
