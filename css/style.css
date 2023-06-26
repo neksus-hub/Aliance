@@ -63,11 +63,12 @@ body {
   top: 0;
   z-index: 2;
   width: 100%;
-  transition: background-color 0.3s;
+  transition: background-color 0.3s, height 0.2s;
 }
 .navbar-light {
   background-color: #fff;
   color: #292d33;
+  height: 72px;
 }
 .navbar-light .header-logo-path {
   fill: #292d33;
@@ -104,9 +105,11 @@ body {
   padding: 25px 50px;
 }
 .header-logo {
-  padding: 25px 50px;
+  padding: 0 50px;
   border-right: 1px solid rgba(235, 235, 240, 0.2);
-  height: 94px;
+  height: 100%;
+  display: flex;
+  align-items: center;
 }
 .seporator {
   width: 150px;
