@@ -14,7 +14,92 @@
     <title>Aliance Production</title>
   </head>
   <body>
+    <div class="mobile-menu">
+      <ul class="mobile-menu-nav">
+        <li class="mobile-menu-nav-item">
+          <a href="#" class="mobile-menu-link">О компании</a>
+        </li>
+        <li class="mobile-menu-nav-item">
+          <a href="#" class="mobile-menu-link">Контрактное производство</a>
+          <!-- /.mobile-submenu -->
+        <ul class="mobile-submenu">
+          <li class="mobile-submenu-item">
+            <a href="#" class="mobile-submenu-link">Автомобильная химия</a>
+          </li>
+          <li class="mobile-submenu-item">
+            <a href="#" class="mobile-submenu-link">Бытовая химия</a>
+          </li>
+          <li class="mobile-submenu-item">
+            <a href="#" class="mobile-submenu-link">Дезинфицирующие средства</a>
+          </li>
+          <li class="mobile-submenu-item">
+            <a href="#" class="mobile-submenu-link">Пищевые аэрозоли</a>
+          </li>
+          <li class="mobile-submenu-item">
+            <a href="#" class="mobile-submenu-link">Косметическая продукция</a>
+          </li>
+          <li class="mobile-submenu-item">
+            <a href="#" class="mobile-submenu-link">Краски аэрозольные</a>
+          </li>
+        </ul>
+        <!-- /.mobile-submenu -->
+        </li>
+        <li class="mobile-menu-nav-item">
+          <a href="#" class="mobile-menu-link">Собственные торговые марки</a>
+            <!-- /.mobile-submenu -->
+        <ul class="mobile-submenu">
+          <li class="mobile-submenu-item">
+            <a href="#" class="mobile-submenu-link">Косметическая продукция</a>
+          </li>
+          <li class="mobile-submenu-item">
+            <a href="#" class="mobile-submenu-link">Краски аэрозольные</a>
+          </li>
+        </ul>
+        <!-- /.mobile-submenu -->
+        </li>
+        <li class="mobile-menu-nav-item">
+          <a href="#" class="mobile-menu-link">Новости</a>
+        </li>
+        <li class="mobile-menu-nav-item">
+          <a href="#" class="mobile-menu-link">Контакты</a>
+        </li>
+      </ul>
+      <!-- /.mobile-submenu -->
+      <a href="tel:+74996861014" class="mobile-phone">+7 (499) 686-10-14</a>
+      <div class="mobile-info">
+        <svg class="mobile-info-icon" height="24px" width="24px">
+          <use href="./img/second-sprite.svg#mark">
+        </svg>
+        <adress class="mobile-info-adress">г. Мосвка, Холодильный пер. 4к1с8</adress>
+      </div>
+      <!-- /.mobile-info -->
+      <div class="mobile-info">
+        <svg class="mobile-info-icon" height="24px" width="24px">
+          <use href="./img/second-sprite.svg#mail">
+        </svg>
+        <a href="mailto:a.dragunov@tdaliance.ru" class="mobile-info-mail">a.dragunov@tdaliance.ru</a>
+      </div>
+      <div class="networks">
+        <a href="#" class="vk">
+          <svg class="mobile-info-icon" height="24px" width="24px">
+            <use href="./img/second-sprite.svg#vk">
+          </svg>
+        </a>
+        <a href="#" class="inst">
+          <svg class="mobile-info-icon" height="24px" width="24px">
+            <use href="./img/second-sprite.svg#inst">
+          </svg>
+        </a>
+      </div>
+      <!-- /.mobile-info -->
+    </div>
+    <!-- /.mobile-menu -->
     <nav class="navbar">
+      <a href="#" class="mobile-menu-toggle">
+        <div class="mobile-menu-line"></div>
+        <div class="mobile-menu-line"></div>
+        <div class="mobile-menu-line"></div>
+      </a>
       <a href="./" class="header-logo">
         <svg class="logo-svg" width="140px" height="44px">
           <use href="./img/sprite.svg#logo-light">
@@ -46,7 +131,12 @@
           >+7 (499) 686-10-14</a
         >
       </div>
-      <button class="header-button button">Получить консультацию</button>
+      <button class="header-button button">
+        <svg class="button-icon" height="1.5rem" width="1.5rem">
+          <use href="./img/sprite.svg#phone">
+        </svg>
+        <span class="button-text">Получить консультацию</span>
+      </button>
       <!-- /.header-button buttone -->
       <!-- /.header-phone -->
     </nav>
