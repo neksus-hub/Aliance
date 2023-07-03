@@ -11,9 +11,12 @@
     />
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
     <title>Aliance Production</title>
   </head>
   <body>
+
+    <!-- /.mobile-menu -->
     <div class="mobile-menu">
       <ul class="mobile-menu-nav">
         <li class="mobile-menu-nav-item">
@@ -21,6 +24,8 @@
         </li>
         <li class="mobile-menu-nav-item">
           <a href="#" class="mobile-menu-link">Контрактное производство</a>
+
+
           <!-- /.mobile-submenu -->
         <ul class="mobile-submenu">
           <li class="mobile-submenu-item">
@@ -43,6 +48,8 @@
           </li>
         </ul>
         <!-- /.mobile-submenu -->
+
+
         </li>
         <li class="mobile-menu-nav-item">
           <a href="#" class="mobile-menu-link">Собственные торговые марки</a>
@@ -94,6 +101,8 @@
       <!-- /.mobile-info -->
     </div>
     <!-- /.mobile-menu -->
+
+    
     <nav class="navbar">
       <a href="#" class="mobile-menu-toggle">
         <div class="mobile-menu-line"></div>
@@ -141,6 +150,8 @@
       <!-- /.header-phone -->
     </nav>
     <!-- /.navbar -->
+
+
     <header class="header header-img">
       <div class="container">
         <div class="header-content">
@@ -156,43 +167,69 @@
           </p>
           <button class="button">Подробнее о компании</button>
         </div>
-        <!-- /.header-content -->
-        <ul class="header-features">
-          <li class="header-features-item">
-            <svg class="logo-features">
-              <use href="./img/sprite.svg#time">
-            </svg>
-            <p class="header-features-text">Непрерывная работа c 2017 года</p>
-          </li>
-          <li class="header-features-item">
-            <svg class="logo-features">
-              <use href="./img/sprite.svg#sertificate">
-            </svg>
-            <p class="header-features-text">Вся продукция сертифицирована</p>
-          </li>
-          <li class="header-features-item">
-            <svg class="logo-features">
-              <use href="./img/sprite.svg#control">
-            </svg>
-            <p class="header-features-text">Контроль качества на всех этапах</p>
-          </li>
-          <li class="header-features-item">
-            <svg class="logo-features">
-              <use href="./img/sprite.svg#transportation">
-            </svg>
-            <p class="header-features-text">Возможны поставки по всей России</p>
-          </li>
-          <li class="header-features-item">
-            <svg class="logo-features">
-              <use href="./img/sprite.svg#efficiency">
-            </svg>
-            <p class="header-features-text">Оперативное производство</p>
-          </li>
-        </ul>
-      </div>
+
+        <!-- Основной блок слайдера -->
+        <div class="swiper">
+          <!-- обертка -->
+          <ul class="swiper-wrapper header-features">
+            <!-- слайды -->
+            <li class="swiper-slide header-features-item">          
+              <svg class="logo-features">
+                <use href="./img/sprite.svg#time">
+              </svg>
+              <p class="header-features-text">Непрерывная работа c 2017 года</p>
+            </li>
+            <li class="swiper-slide header-features-item">
+              <svg class="logo-features">
+                <use href="./img/sprite.svg#sertificate">
+              </svg>
+              <p class="header-features-text">Вся продукция сертифицирована</p>
+            </li>
+            <li class="swiper-slide header-features-item">
+              <svg class="logo-features">
+                <use href="./img/sprite.svg#control">
+              </svg>
+              <p class="header-features-text">Контроль качества на всех этапах</p>
+            </li>
+            <li class="swiper-slide header-features-item">
+              <svg class="logo-features">
+                <use href="./img/sprite.svg#transportation">
+              </svg>
+              <p class="header-features-text">Возможны поставки по всей России</p>
+            </li>
+            <li class="swiper-slide header-features-item">
+              <svg class="logo-features">
+                <use href="./img/sprite.svg#efficiency">
+              </svg>
+              <p class="header-features-text">Оперативное производство</p>
+            </li>
+            </ul>
+          </div>
+          
+          <!-- Переключатели -->
+          <div class="slider-buttons">
+            <div class="slider-button-prev">
+              <svg height="24px" width="36px">
+                <use href="./img/arrow-sprite.svg#arrow-prev">
+              </svg>
+            </div>
+            <div class="slider-button-next">
+              <svg height="24px" width="36px">
+               <use href="./img/arrow-sprite.svg#arrow-next">
+              </svg>
+          </div>
+          </div>
+          <!-- /.slider-buttons -->
+
       <!-- /.container -->
+    </div>
+    <!-- /.container -->
     </header>
     <!-- /.header -->
+        
+
+        
+
     <section class="section-light">
       <div class="container">
         <div class="seporator"></div>
@@ -236,6 +273,7 @@
       <!-- /.container -->
     </section>
     <!-- /.section-light -->
+    <script src="js/swiper-bundle.min.js"></script>
     <script src="js/main.js"></script>
   </body>
 </html>

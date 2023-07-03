@@ -20,22 +20,22 @@ body {
 .mobile-menu {
   display: none;
 }
+
 .header {
-  max-height: 970px;
   margin-bottom: 9.375rem;
   padding-top: 5.875rem;
+  min-height: 100vh;
 }
 .container {
   max-width: 90rem;
   margin: auto;
 }
 .header-img {
-  background: url("../img/header-bg.png");
+  background-image: url("../img/header-bg.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top left;
-  height: 60.625rem;
-  width: 100%;
+  position: relative;
 }
 .header-img::before {
   content: "";
@@ -44,8 +44,8 @@ body {
   top: 0;
   left: 0;
   z-index: 0;
-  height: 60.625rem;
   width: 100%;
+  height: 100%;
 }
 .header-nav {
   flex-basis: 100%;
@@ -166,6 +166,7 @@ body {
   margin-bottom: 3.125rem;
   line-height: 160%;
 }
+
 .header-features {
   list-style: none;
   display: flex;
@@ -184,13 +185,29 @@ body {
 }
 .header-features-item {
   padding: 1.8125rem 3.125rem 0 3.125rem;
-  max-width: 18rem;
+  width: 18rem;
   border: 0.0625rem solid rgba(235, 235, 240, 0.2);
   word-spacing: -0.0563rem;
+  min-height: 100%;
 }
-.header-features-item:not(:last-child) {
-  border: 0.0625rem solid rgba(235, 235, 240, 0.2);
+
+.slider-buttons {
+  display: none;
+  height: 44px;
+  position: relative;
 }
+
+.slider-button-prev,
+.slider-button-next {
+  flex-basis: 50%;
+  border: 1px solid rgba(235, 235, 240, 0.2);
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
 .section-title {
   font-size: 3.75rem;
   font-family: Bebas Neue;
@@ -333,13 +350,16 @@ body {
   .navbar {
     height: 5rem;
   }
+  .slider-buttons {
+    display: flex;
+  }
 }
 @media (max-width: 992px) {
   html {
     font-size: 9px;
   }
   .container {
-    min-width: 60rem;
+    max-width: 60rem;
   }
   .header-nav {
     display: none;
@@ -484,5 +504,32 @@ body {
   }
   .close-menu .mobile-menu-line:nth-child(3) {
     transform: rotate(-45deg) translateY(-11px);
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    max-width: 40rem;
+  }
+  .header-content-title {
+    font-size: 4rem;
+  }
+  .header-content {
+    margin-top: 3rem;
+    padding-top: 0;
+  }
+}
+
+@media (max-width: 568px) {
+  .container {
+    max-width: 90%;
+    margin: auto;
+  }
+  .header-content-title {
+    font-size: 2rem;
+  }
+  .header-content {
+    margin-top: 2rem;
+    padding-top: 0;
   }
 }
