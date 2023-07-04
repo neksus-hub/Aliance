@@ -42,6 +42,7 @@ const swiper = new Swiper(".swiper", {
   speed: 400,
   autoHeigh: true,
   slidesPerView: 1,
+  loop: false,
   navigation: {
     prevEl: ".slider-button-prev",
     nextEl: ".slider-button-next",
@@ -62,6 +63,35 @@ const swiper = new Swiper(".swiper", {
     // when window width is >= 1200px
     1200: {
       slidesPerView: 5,
+    },
+  },
+});
+
+const swiperSteps = new Swiper(".swiper-steps", {
+  speed: 400,
+  autoHeigh: true,
+  slidesPerView: 1,
+  loop: false,
+  navigation: {
+    prevEl: ".slider-button-steps-prev",
+    nextEl: ".slider-button-steps-next",
+  },
+  breakpoints: {
+    // when window width is >= 320px
+    576: {
+      slidesPerView: 1,
+    },
+    // when window width is >= 768px
+    768: {
+      slidesPerView: 2,
+    },
+    // when window width is >= 1024px
+    1024: {
+      slidesPerView: 3,
+    },
+    // when window width is >= 1200px
+    1200: {
+      slidesPerView: 4,
     },
   },
 });
