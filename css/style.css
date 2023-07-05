@@ -188,7 +188,7 @@ body {
   width: 18rem;
   border: 0.0625rem solid rgba(235, 235, 240, 0.2);
   word-spacing: -0.0563rem;
-  min-height: 100%;
+  height: auto;
 }
 
 .slider-buttons {
@@ -378,10 +378,13 @@ body {
   .slider-buttons-steps {
     display: flex;
   }
+  .header-features-text {
+    font-size: 10px;
+  }
 }
 @media (max-width: 992px) {
   html {
-    font-size: 9px;
+    font-size: 10px;
   }
   .container {
     max-width: 60rem;
