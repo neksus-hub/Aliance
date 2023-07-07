@@ -300,6 +300,42 @@ body {
   width: 2.5rem;
   margin-right: 1.25rem;
 }
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+.card {
+  flex-basis: 33%;
+  border: 1px solid var(--sep, #ebebf0);
+  position: relative;
+}
+.card-title {
+  font-size: 1.75rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+  color: var(--txt, #292d33);
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+.card-text {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+  color: var(--txt-2, #828a99);
+  margin-bottom: 24.625rem;
+}
+.card-contant {
+  padding: 2.5rem 3.125rem;
+}
+.card-img {
+  max-width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
 @media (max-width: 1920px) {
   html {
     font-size: 16px;
