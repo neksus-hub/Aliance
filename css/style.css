@@ -53,12 +53,40 @@ body {
   padding: 0 3.125rem;
   list-style: none;
   margin: 0;
+  align-items: center;
+  height: 100%;
+}
+.header-nav-item {
+  height: 100%;
+  align-items: center;
 }
 .header-nav-link {
   text-decoration: none;
   font-size: 1rem;
   color: inherit;
+  height: 100%;
+  align-items: center;
+  display: flex;
+  position: relative;
 }
+.header-nav-link:after {
+  content: "";
+  bottom: -1px;
+  width: 0px;
+  height: 2px;
+  background-color: #5c8ee5;
+  position: absolute;
+  transition: width 0.2s;
+  right: 0;
+  left: auto;
+}
+
+.header-nav-link:hover::after {
+  width: 100%;
+  left: 0;
+  right: auto;
+}
+
 .header-nav-item:not(:last-child) {
   margin-right: 4%;
 }
@@ -243,6 +271,8 @@ body {
   padding: 0;
   gap: 1.875rem;
   list-style: none;
+  margin: 0;
+  margin-bottom: 9.375rem;
 }
 .steps-item {
   max-width: 18.75rem;
@@ -299,6 +329,10 @@ body {
   display: inline-block;
   width: 2.5rem;
   margin-right: 1.25rem;
+  transition: width 0.2s;
+}
+.steps-link:hover::before {
+  width: 60px;
 }
 .cards {
   display: flex;
@@ -308,7 +342,18 @@ body {
   flex-basis: 33%;
   border: 1px solid var(--sep, #ebebf0);
   position: relative;
+  text-decoration: none;
+  transition: border 0.2s;
 }
+
+.card:hover .card-title {
+  color: #5c8ee5;
+}
+
+.card:hover {
+  border: 1px solid var(--sep, #5c8ee5);
+}
+
 .card-title {
   font-size: 1.75rem;
   font-style: normal;
@@ -317,7 +362,9 @@ body {
   color: var(--txt, #292d33);
   margin-top: 0;
   margin-bottom: 10px;
+  transition: color 0.2s;
 }
+
 .card-text {
   font-size: 16px;
   font-style: normal;
@@ -330,11 +377,11 @@ body {
   padding: 2.5rem 3.125rem;
 }
 .card-img {
-  max-width: 100%;
   position: absolute;
-  left: 0;
   bottom: 0;
   right: 0;
+  z-index: 0;
+  width: 90%;
 }
 @media (max-width: 1920px) {
   html {
@@ -417,6 +464,9 @@ body {
   }
   .header-features-text {
     font-size: 10px;
+  }
+  .card {
+    flex-basis: 50%;
   }
 }
 @media (max-width: 992px) {
@@ -585,6 +635,9 @@ body {
   }
   .section-title {
     font-size: 3rem;
+  }
+  .card {
+    flex-basis: 100%;
   }
 }
 
