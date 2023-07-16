@@ -99,3 +99,32 @@ const swiperSteps = new Swiper(".swiper-steps", {
     },
   },
 });
+
+const swiperBlog = new Swiper(".swiper-blog", {
+  speed: 400,
+  autoHeigh: true,
+  slidesPerView: 1,
+  spaceBetween: 30,
+  navigation: {
+    prevEl: ".slider-button-blog-prev",
+    nextEl: ".slider-button-blog-next",
+  },
+  breakpoints: {
+    // when window width is >= 320px
+    576: {
+      slidesPerView: 1,
+    },
+    // when window width is >= 768px
+    768: {
+      slidesPerView: 2,
+    },
+    // when window width is >= 1024px
+    1024: {
+      slidesPerView: 2,
+    },
+    // when window width is >= 1200px
+    1200: {
+      slidesPerView: 2,
+    },
+  },
+});

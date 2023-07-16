@@ -68,7 +68,7 @@
   width: 100%;
   position: relative;
   transition-property: transform;
-  display: block;
+  display: flex;
 }
 .swiper-slide-invisible-blank {
   visibility: hidden;
