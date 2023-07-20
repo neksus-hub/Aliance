@@ -145,7 +145,7 @@
           >+7 (499) 686-10-14</a
         >
       </div>
-      <button class="header-button button">
+      <button class="header-button button" data-toggle="modal">
         <svg class="button-icon" height="1.5rem" width="1.5rem">
           <use href="./img/sprite.svg#phone"></use>
         </svg>
@@ -847,6 +847,66 @@
         <!-- /.footer-wrapper -->
       </div>
     </footer>
+
+    <div class="modal">
+      <div class="modal-dialog">
+        <h2 class="modal-title">Есть вопросы?</h2>
+        <a href="" class="modal-close">
+          <svg class="modal-close-icon" height="24px" width="24px">
+            <use href="./img/sprite.svg#close"></use>
+          </svg>
+        </a>
+        <p class="modal-text">Оставьте заявку, наш менеджер свяжется с Вами в ближайшее время ответит на все интересующие вопросы и поможем даже в самых сложных случаях!</p>
+        <form action="#" class="modal-form">
+          <div class="input-group-wrapper input-group-vertical">
+            <div class="input-group input-group-modal">
+              <input
+                id="modal-user-name"
+                type="text"
+                class="input input-modal"
+                placeholder=" "
+              />
+              <label
+                class="input-group-label"
+                for="modal-user-name"
+                class="user-name"
+                >Имя</label
+              >
+            </div>
+            <div class="input-group input-group-modal">
+              <input
+                id="modal-user-phone"
+                type="tel"
+                class="input input-modal"
+                placeholder=" "
+              />
+              <label
+                class="input-group-label"
+                for="modal-user-phone"
+                class="user-name"
+                >Номер телефона</label
+              >
+            </div>
+          </div>
+          <div class="modal-form-footer">
+            <button type="submit" class="button modal-form-button">
+              Отправить заявку
+            </button>
+            <div class="modal-notify">
+              <div class="notify-icon">
+                <svg height="14px" width="14px">
+                  <use href="./img/sprite.svg#shield"></use>
+                </svg>
+              </div>
+              <p class="notify-text modal-footer-text">
+                Обращаясь к нам вы получаете не только профессиональную
+                работу, но и абсолютную конфиденциальность информации!
+              </p>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
 
     <script src="js/swiper-bundle-steps.js"></script>
     <script src="js/swiper-bundle.min.js"></script>
