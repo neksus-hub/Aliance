@@ -999,7 +999,7 @@ body {
 }
 
 .modal-footer-text {
-  width: auto;
+  width: 21rem;
 }
 
 .modal-title {
@@ -1056,6 +1056,7 @@ body {
 .modal-notify {
   display: flex;
   gap: 0.625rem;
+  min-width: 22.5rem;
 }
 .modal-form-button {
   display: flex;
