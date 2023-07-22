@@ -26,6 +26,74 @@ body {
   padding-top: 5.875rem;
   min-height: 100vh;
 }
+.header-bg-img {
+  background-image: url(../img/interior-bg-img.png);
+}
+.header-interior {
+  background: var(--bg-2, #f0f2f5);
+  margin-top: 6rem;
+}
+.header-content-wrapper {
+  padding-top: 3.125rem;
+}
+.header-interior-content {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 3.125rem;
+}
+.header-interior-info {
+  width: 60%;
+}
+.header-interior-img {
+  display: flex;
+}
+
+.interior-img {
+  bottom: 0;
+  margin: 0;
+  padding: 0;
+  flex-shrink: 0;
+}
+
+.breadcrumb-link-home {
+  color: var(--txt-2, #828a99);
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+  text-decoration: none;
+  margin-right: 0.625rem;
+}
+
+.breadcrumb-link-home::after {
+  display: inline-block;
+  align-items: center;
+  width: 0.875rem;
+  content: "";
+  height: 0.07rem;
+  background-color: var(--txt-2, #828a99);
+  margin-left: 0.625rem;
+}
+
+.breadcrumb {
+  display: flex;
+  align-items: center;
+}
+
+.breadcrumb-link {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+  color: var(--txt, #292d33);
+  text-decoration: none;
+  align-items: center;
+  display: flex;
+  margin-right: 0.625rem;
+}
+
 .container {
   max-width: 95.875rem;
   margin: auto;
@@ -96,6 +164,11 @@ body {
   width: 8.75rem;
   height: 2.75rem;
 }
+
+.logo-dark {
+  display: none;
+}
+
 .logo-features {
   width: 2.25rem;
   height: 2.25rem;
@@ -113,14 +186,28 @@ body {
   width: 100%;
   transition: background-color 0.3s, height 0.2s;
 }
+
+.navbar-scroll {
+  height: 4.5rem;
+}
+
 .navbar-light {
   background-color: #fff;
   color: #292d33;
-  height: 4.5rem;
 }
+
+.navbar-light .logo-light {
+  display: none;
+}
+
+.navbar-light .logo-dark {
+  display: block;
+}
+
 .navbar-light .header-logo-path {
   fill: #292d33;
 }
+
 .header-phone {
   flex-shrink: 0;
   display: flex;
@@ -128,16 +215,19 @@ body {
   gap: 0.625rem;
   margin-right: 4rem;
 }
+
 .header-phone-link {
   text-decoration: none;
   font-size: 1rem;
   color: inherit;
 }
+
 .phone-icon {
   width: 1.5rem;
   height: 1.5rem;
   fill: #5c8ee6;
 }
+
 .button {
   font-weight: 600;
   font-size: 1rem;
@@ -200,6 +290,11 @@ body {
   letter-spacing: 1.7px;
   word-spacing: 3px;
 }
+
+.header-content-title-dark {
+  color: var(--txt, #292d33);
+}
+
 .header-text {
   max-width: 45rem;
   color: white;
@@ -679,7 +774,9 @@ body {
   position: relative;
   padding-bottom: 3rem;
 }
-
+.about-cta {
+  margin-top: 12rem;
+}
 .section-cta {
   padding-top: 6.25rem;
   position: relative;
