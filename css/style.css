@@ -187,10 +187,6 @@ body {
   transition: background-color 0.3s, height 0.2s;
 }
 
-.navbar-scroll {
-  height: 4.5rem;
-}
-
 .navbar-light {
   background-color: #fff;
   color: #292d33;
@@ -2048,5 +2044,8 @@ body {
   }
   .input-group-label {
     top: 0.8rem;
+  }
+  .header-interior-info {
+    width: 100%;
   }
 }
