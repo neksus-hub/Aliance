@@ -3,6 +3,7 @@ const logo = document.querySelector(".logo-svg use");
 const mMenuToggle = document.querySelector(".mobile-menu-toggle");
 const menu = document.querySelector(".mobile-menu");
 const isFront = document.body.classList.contains("front-page");
+const mMenuLine = document.querySelector(".mobile-menu-line");
 
 const lightModeOne = (event) => {
   navbar.classList.add("navbar-light");
@@ -17,7 +18,7 @@ const changeNavHeigth = (height) => {
 };
 
 const openMenu = (event) => {
-  // функция открывания меню
+  // функция открытия меню
   menu.classList.add("is-open"); // вешает класс is-open
   document.body.style.overflow = "hidden"; // запрещаем прокрутку сайта под меню
   mMenuToggle.classList.add("close-menu");
@@ -29,14 +30,22 @@ const closeMenu = (event) => {
   menu.classList.remove("is-open"); // Убирает класс is-open
   document.body.style.overflow = ""; // разрешаем прокрутку сайта под меню
   mMenuToggle.classList.remove("close-menu");
-  lightModeOff();
+  if (isFront) {
+    navbar.classList.remove("navbar-light");
+  }
 };
 
 window.addEventListener("scroll", () => {
-  this.scrollY > 1 ? changeNavHeigth("4.5rem") : changeNavHeigth("5.875rem");
+  this.scrollY > 1 ? changeNavHeigth("6.7rem") : changeNavHeigth("6.7rem");
   if (isFront) {
     this.scrollY > 1 ? lightModeOne() : lightModeOff();
   }
+});
+
+window.addEventListener("scroll", () => {
+  this.crollY > 1
+    ? mMenuLine.classList.add("mobile-menu-dark")
+    : mMenuLine.classList.remove("mobile-menu-dark");
 });
 
 mMenuToggle.addEventListener("click", (event) => {
