@@ -35,6 +35,7 @@ body {
 }
 .header-content-wrapper {
   padding-top: 3.125rem;
+  margin-bottom: 10rem;
 }
 .header-interior-content {
   display: flex;
