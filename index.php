@@ -164,7 +164,7 @@
         <div class="header-content">
           <div class="seporator"></div>
           <h1 class="header-content-title">
-            Комплексное обеспечение товарами и расходными материалами бизнеса
+            <?php echo "Галавная страница"; ?>
           </h1>
           <p class="header-text">
             Высокий уровень вовлечения представителей целевой аудитории является
@@ -833,7 +833,7 @@
           <div class="legal">
             <div class="legal-text">
               <p class="copyright">
-                &#169; 2022 «Aliance Production». Все права защищены.
+                &#169; <?php echo date('d.m.y')?> «Aliance Production». Все права защищены.
               </p>
             </div>
             <div class="legal-link">
