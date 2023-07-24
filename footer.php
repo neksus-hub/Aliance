@@ -17,6 +17,8 @@
                   class="input"
                   placeholder=" "
                   name="username"
+                  required
+                  maxlength = "50"
                 />
                 <label
                   class="input-group-label"
@@ -32,6 +34,8 @@
                   class="input"
                   placeholder=" "
                   name="userphone"
+                  required
+                  maxlength="30"
                 />
                 <label
                   class="input-group-label"
