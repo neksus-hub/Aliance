@@ -31,7 +31,7 @@
                 <input
                   id="user-phone"
                   type="tel"
-                  class="input"
+                  class="input phone-mask"
                   placeholder=" "
                   name="userphone"
                   required
@@ -46,7 +46,7 @@
               </div>
             </div>
             <div class="cta-form-footer">
-              <button type="submit" class="button cta-form-button">
+              <button type="submit" class="button cta-form-button" data-toggle="modal" data-target="#modal-alert">
                 Отправить заявку
               </button>
               <div class="notify">
@@ -197,3 +197,40 @@
         <!-- /.footer-wrapper -->
       </div>
     </footer>
+
+    <div class="modal-success" id="modal-alert">
+      <div class="modal-dialog">
+        <a href="" class="modal-close" data-toggle="modal" data-target="#modal-alert">
+          <svg class="modal-close-icon" height="24px" width="24px" data-target="#modal-alert">
+            <use href="./img/sprite.svg#close"></use>
+          </svg>
+        </a>
+      <div class="modal-img">
+        <img src="./img/modal-success.png" alt="success" class="modal-success-img">
+      </div>
+      <h2 class="modal-title">Спасибо за заявку!</h2>
+      <p class="modal-text">Наш менеджер свяжется с Вами в ближайшее время ответит на все интересующие вопросы и поможем даже в самых сложных случаях!</p>
+      <div class="modal-form-footer">
+            <a href="/index.php" class="modal-link-success">
+            <button type="submit" class="button modal-form-button">
+              Вернуться на главную
+            </button>
+            </a>
+            <div class="modal-notify">
+              <div class="notify-icon">
+                <svg height="14px" width="14px">
+                  <use href="./img/sprite.svg#shield"></use>
+                </svg>
+              </div>
+              <p class="notify-text modal-footer-text">
+                Обращаясь к нам вы получаете не только профессиональную
+                работу, но и абсолютную конфиденциальность информации!
+              </p>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+      </div>
+      <!-- /.madal-dialog -->
+    </div>
