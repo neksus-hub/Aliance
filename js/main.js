@@ -144,7 +144,7 @@ const swiperBlog = new Swiper(".swiper-blog", {
   },
 });
 
-let currentModal; // текущее модальное окно
+let currentModal = document.querySelector("#feedback-modal"); // текущее модальное окно
 let modalDialog; // белое диалоговое окно
 let alertModal = document.querySelector("#modal-alert"); // окно с благодарностью
 const modalButtons = document.querySelectorAll("[data-toggle=modal]"); // переключатель модальных окон
@@ -219,8 +219,12 @@ forms.forEach((form) => {
         }).then((response) => {
           if (response.ok) {
             thisForm.reset();
-            currentModal.classList.remove("is-open");
-            alertModal.classList.add("is-open");
+            if (currentModal.classList.contains("is-open")) {
+              currentModal.classList.remove("is-open");
+              alertModal.classList.add("is-open");
+            } else {
+              alertModal.classList.add("is-open");
+            }
             currentModal = alertModal;
             modalDialog = currentModal.querySelector(".modal-dialog");
 
