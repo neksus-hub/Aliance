@@ -46,7 +46,7 @@
               </div>
             </div>
             <div class="cta-form-footer">
-              <button type="submit" class="button cta-form-button" data-toggle="modal" data-target="#modal-alert">
+              <button type="submit" class="button cta-form-button" >
                 Отправить заявку
               </button>
               <div class="notify">
