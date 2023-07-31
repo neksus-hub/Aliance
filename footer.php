@@ -184,7 +184,7 @@
               </p>
             </div>
             <div class="legal-link">
-              <a href="#" class="footer-policy">Политики конфиденциальности</a>
+              <a href="confidencial.php" class="footer-policy">Политики конфиденциальности</a>
             </div>
           </div>
           <div class="footer-author">

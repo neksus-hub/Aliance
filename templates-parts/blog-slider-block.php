@@ -1,18 +1,9 @@
-<!DOCTYPE html>
-<html lang="ru">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./css/normalize.css" />
-  <link rel="stylesheet" href="./css/style.css" />
-  <link rel="stylesheet" href="./css/swiper-bundle.min.css" />
-</head>
-<body>
+
 <section class="section section-blog">
       <div class="container">
         <div class="seporator"></div>
         <h2 class="section-title blog-title">
-          Исследовательский центр Aliance Production
+          <?= $blog_slider_title;?>
         </h2>
         <div class="blog-text">
           <div class="blog-text-first">
@@ -79,7 +70,7 @@
           </div>
 
           <div class="blog-slider-footer">
-            <a href="#" class="button-link button-link-blog">Весь блог</a>
+            <a href="./blog.php" class="button-link button-link-blog">Весь блог</a>
             <!-- Переключатели -->
             <div class="slider-buttons-blog primary-buttons-wrapper">
               <div class="slider-button-blog-prev primary-button-prev">
@@ -101,11 +92,6 @@
       <!-- /.container -->
     </section>
     <!-- /.section -->
-  <script src="./js/swiper-bundle-steps.js"></script>
-  <script src="./js/swiper-bundle.min.js"></script>
-  <script src="./js/just-validate.production.min.js"></script>
-  <script src="./js/main.js"></script>
-</body>
-</html>
+
 
 
