@@ -27,7 +27,7 @@
           <!-- /.mobile-submenu -->
           <ul class="mobile-submenu">
             <li class="mobile-submenu-item">
-              <a href="#" class="mobile-submenu-link">Автомобильная химия</a>
+              <a href="autohim.php" class="mobile-submenu-link">Автомобильная химия</a>
             </li>
             <li class="mobile-submenu-item">
               <a href="#" class="mobile-submenu-link">Бытовая химия</a>
@@ -52,7 +52,7 @@
           <!-- /.mobile-submenu -->
         </li>
         <li class="mobile-menu-nav-item">
-          <a href="#" class="mobile-menu-link">Собственные торговые марки</a>
+          <a href="./trademarks.php" class="mobile-menu-link">Собственные торговые марки</a>
           <!-- /.mobile-submenu -->
           <ul class="mobile-submenu">
             <li class="mobile-submenu-item">
@@ -127,10 +127,10 @@
           <a href="/about.php" class="header-nav-link">О компании</a>
         </li>
         <li class="header-nav-item">
-          <a href="#" class="header-nav-link">Контрактное производство</a>
+          <a href="./contracts.php" class="header-nav-link">Контрактное производство</a>
         </li>
         <li class="header-nav-item">
-          <a href="#" class="header-nav-link">Собственные торговые марки</a>
+          <a href="./trademarks.php" class="header-nav-link">Собственные торговые марки</a>
         </li>
         <li class="header-nav-item">
           <a href="#" class="header-nav-link">Новости</a>
@@ -177,62 +177,7 @@
           </button>
         </div>
 
-        <!-- Основной блок слайдера -->
-        <div class="swiper">
-          <!-- обертка -->
-          <ul class="swiper-wrapper header-features">
-            <!-- слайды -->
-            <li class="swiper-slide header-features-item">
-              <svg class="logo-features">
-                <use href="./img/sprite.svg#time"></use>
-              </svg>
-              <p class="header-features-text">Непрерывная работа c 2017 года</p>
-            </li>
-            <li class="swiper-slide header-features-item">
-              <svg class="logo-features">
-                <use href="./img/sprite.svg#sertificate"></use>
-              </svg>
-              <p class="header-features-text">Вся продукция сертифицирована</p>
-            </li>
-            <li class="swiper-slide header-features-item">
-              <svg class="logo-features">
-                <use href="./img/sprite.svg#control"></use>
-              </svg>
-              <p class="header-features-text">
-                Контроль качества на всех этапах
-              </p>
-            </li>
-            <li class="swiper-slide header-features-item">
-              <svg class="logo-features">
-                <use href="./img/sprite.svg#transportation"></use>
-              </svg>
-              <p class="header-features-text">
-                Возможны поставки по всей России
-              </p>
-            </li>
-            <li class="swiper-slide header-features-item">
-              <svg class="logo-features">
-                <use href="./img/sprite.svg#efficiency"></use>
-              </svg>
-              <p class="header-features-text">Оперативное производство</p>
-            </li>
-          </ul>
-        </div>
-
-        <!-- Переключатели -->
-        <div class="slider-buttons">
-          <div class="slider-button-prev">
-            <svg height="24px" width="36px">
-              <use href="./img/arrow-sprite.svg#arrow-prev"></use>
-            </svg>
-          </div>
-          <div class="slider-button-next">
-            <svg height="24px" width="36px">
-              <use href="./img/arrow-sprite.svg#arrow-next"></use>
-            </svg>
-          </div>
-        </div>
-        <!-- /.slider-buttons -->
+        <?php include_once('./templates-parts/features-slider.php');?>
 
         <!-- /.container -->
       </div>
@@ -304,129 +249,9 @@
     </section>
     <!-- /.section-light -->
 
-    <!-- /.section-PRODUCTIONS -->
-    <div class="section">
-      <div class="container">
-        <div class="seporator"></div>
-        <h2 class="section-title">контрактное производство</h2>
-        <div class="cards">
-          <a href="#" class="card card-first">
-            <h3 class="card-title">Автомобильная химия</h3>
-            <div class="card-contant">
-              <p class="card-text">
-                Безусловно, сплочённость команды профессионалов позволяет
-                оценить значение форм воздействия.
-              </p>
-            </div>
-            <img
-              src="./img/auto-him.png"
-              alt=""
-              class="card-img card-img-first"
-            />
-          </a>
-          <a href="#" class="card card-second">
-            <h3 class="card-title card-title-second">Бытовая химия</h3>
-            <div class="card-contant">
-              <p class="card-text">
-                А также стремящиеся вытеснить традиционное производство,
-                нанотехнологии функционально разнесены на независимые элементы.
-              </p>
-            </div>
-            <img
-              src="./img/household-him.png"
-              alt=""
-              class="card-img card-img-second"
-            />
-          </a>
-          <a href="#" class="card card-third">
-            <h3 class="card-title card-title-third">
-              Дезинфицирующие средства
-            </h3>
-            <div class="card-contant">
-              <p class="card-text">
-                Лишь интерактивные прототипы призваны к ответу.
-              </p>
-            </div>
-            <img
-              src="./img/disinfectants.png"
-              alt=""
-              class="card-img card-img-third"
-            />
-          </a>
-          <a href="#" class="card card-fourth">
-            <h3 class="card-title card-title-fourth">Пищевые аэрозоли</h3>
-            <div class="card-contant">
-              <p class="card-text">
-                Безусловно, сплочённость команды профессионалов позволяет
-                оценить значение форм воздействия.
-              </p>
-            </div>
-            <img src="./img/food.png" alt="" class="card-img card-img-fourth" />
-          </a>
-          <a href="#" class="card card-fith">
-            <h3 class="card-title card-title-fith">Косметическая продукция</h3>
-            <div class="card-contant">
-              <p class="card-text">
-                Лишь интерактивные прототипы призваны к ответу.
-              </p>
-            </div>
-            <img
-              src="./img/cosmetics.png"
-              alt=""
-              class="card-img card-img-fith"
-            />
-          </a>
-          <a href="#" class="card card-sixth">
-            <h3 class="card-title card-title-sixth">Краски аэрозольные</h3>
-            <div class="card-contant">
-              <p class="card-text">
-                А также стремящиеся вытеснить традиционное производство,
-                нанотехнологии функционально разнесены на независимые элементы.
-              </p>
-            </div>
-            <img
-              src="./img/paints.png"
-              alt=""
-              class="card-img card-img-sixth"
-            />
-          </a>
-        </div>
-      </div>
-    </div>
-    <!-- /.section-PRODUCTIONS -->
+    <?php $cards_title = "Контрактное производство"; include_once('./templates-parts/cards-block.php')?>
 
-    <!-- /.section-trade-marks -->
-    <div class="section">
-      <div class="container">
-        <div class="seporator"></div>
-        <h2 class="section-title marks-title">собственные торговвые марки</h2>
-        <div class="marks">
-          <div href="#" class="mark">
-            <svg height="180" width="180" class="mark-img">
-              <use href="./img/AGTECH.svg#AGTECH"></use>
-            </svg>
-            <h3 class="mark-title">Автохимия AG-Tech</h3>
-            <p class="mark-text">
-              Для современного мира разбавленное изрядной долей эмпатии,
-              рациональное мышление создаёт предпосылки для поставленных
-              обществом задач.
-            </p>
-          </div>
-          <div href="#" class="mark">
-            <svg height="180" width="180" class="mark-img">
-              <use href="./img/AP.svg#AP"></use>
-            </svg>
-            <h3 class="mark-title">Автохимия AP</h3>
-            <p class="mark-text">
-              Для современного мира разбавленное изрядной долей эмпатии,
-              рациональное мышление создаёт предпосылки для поставленных
-              обществом задач.
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- /.section-trade-marks -->
+    <?php $trademarks_title = "Собственные торговые марки"; include_once('./templates-parts/trademarks-block.php')?>
 
     <section class="section section-founder">
       <img src="/img/founder.png" alt="founder" class="founder-photo" />
@@ -729,12 +554,12 @@
             <use href="./img/sprite.svg#close"></use>
           </svg>
         </a>
-      <div class="modal-img">
-        <img src="./img/modal-success.png" alt="success" class="modal-success-img">
-      </div>
-      <h2 class="modal-title">Спасибо за заявку!</h2>
-      <p class="modal-text">Наш менеджер свяжется с Вами в ближайшее время ответит на все интересующие вопросы и поможем даже в самых сложных случаях!</p>
-      <div class="modal-form-footer">
+        <div class="modal-img">
+          <img src="./img/modal-success.png" alt="success" class="modal-success-img">
+        </div>
+        <h2 class="modal-title">Спасибо за заявку!</h2>
+        <p class="modal-text">Наш менеджер свяжется с Вами в ближайшее время ответит на все интересующие вопросы и поможем даже в самых сложных случаях!</p>
+        <div class="modal-form-footer">
             <a href="/index.php" class="modal-link-success">
             <button type="submit" class="button modal-form-button">
               Вернуться на главную

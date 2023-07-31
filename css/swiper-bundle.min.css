@@ -65,10 +65,10 @@
 }
 .swiper-slide {
   flex-shrink: 0;
-  width: 100%;
   position: relative;
   transition-property: transform;
   display: flex;
+  width: 100%;
 }
 .swiper-slide-invisible-blank {
   visibility: hidden;
