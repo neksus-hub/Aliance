@@ -4,6 +4,7 @@
     include_once('header-page.php');?>
     <?php include_once('modal-windows.php');?>
     <?php include_once('./templates-parts/trademarks-block.php')?>
+    <?php include_once('./templates-parts/cta-section.php');?>
     <?php include_once('footer.php');?>
 
   

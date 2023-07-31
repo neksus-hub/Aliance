@@ -9,6 +9,7 @@
     $header_features_border_dark = 'header-features-border-dark';
     $slider_button_blue = 'slider-button-blue';
     include_once('header-page.php');?>
+    <?php include_once('./templates-parts/cta-section.php');?>
     <?php include_once('footer.php');?>
 
     <script src="js/swiper-bundle-steps.js"></script>

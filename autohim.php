@@ -16,6 +16,7 @@
     include_once('./templates-parts/blog-slider-block.php');?>
     <?php include_once('./templates-parts/steps-slider.php');?>
     <?php include_once('./templates-parts/section-clients.php');?>
+    <?php include_once('./templates-parts/cta-section.php');?>
     <?php include_once('footer.php');?>
 
     <script src="js/swiper-bundle-steps.js"></script>

@@ -419,7 +419,7 @@
       <!-- /.container -->
     </section>
     <!-- /.section -->
-
+    <?php include_once('./templates-parts/cta-section.php');?>
     <?php include_once('footer.php');?>
 
     <div class="modal" id="feedback-modal">
