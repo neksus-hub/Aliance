@@ -70,7 +70,13 @@
           </svg>
         </a>
       <div class="modal-img">
-        <img src="./img/modal-success.png" alt="success" class="modal-success-img">
+
+        <picture>
+          <source type="image/webp" srcset="img/modal-success.webp" class="modal-success-img">
+          <source type="image/png" srcset="img/modal-success.png" class="modal-success-img">
+          <img src="img/modal-success.png" alt="success" class="modal-success-img">
+        </picture>
+        
       </div>
       <h2 class="modal-title">Спасибо за заявку!</h2>
       <p class="modal-text">Наш менеджер свяжется с Вами в ближайшее время ответит на все интересующие вопросы и поможем даже в самых сложных случаях!</p>

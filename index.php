@@ -192,7 +192,16 @@
     <?php $trademarks_title = "Собственные торговые марки"; include_once('./templates-parts/trademarks-block.php')?>
 
     <section class="section section-founder">
-      <img src="/img/founder.png" alt="founder" class="founder-photo" />
+
+
+      <picture>
+        <source type="image/webp" srcset="img/founder.webp" class="founder-photo">
+        <source type="image/png" srcset="img/founder.png" class="founder-photo">
+        <img src="img/founder.png" alt="founder" class="founder-photo">
+      </picture>
+
+
+
       <div class="container">
         <div class="founder-content-wrapper">
           <div class="founder-contant">
@@ -350,11 +359,15 @@
           <div class="swiper-wrapper">
             <!-- Slides -->
             <a href="#" class="swiper-slide card-blog">
-              <img
-                src="./img/blog-card-first.png"
-                alt="blog-card"
-                class="blog-card-image"
-              />
+
+            
+            <picture class="blog-card-image">
+                <source type="image/webp" srcset="img/blog-card-first.webp" class="blog-card-image" class="blog-card-image" class="blog-card-image">
+                <source type="image/png" srcset="img/blog-card-first.png" class="blog-card-image" class="blog-card-image" class="blog-card-image">
+                <img src="img/blog-card-first.png" alt="blog-card" class="blog-card-image" class="blog-card-image" class="blog-card-image">
+            </picture>
+
+            
               <h3 class="blog-card-title">
                 Современная методология разработки одухотворила всех причастных
               </h3>
@@ -365,11 +378,11 @@
               </p>
             </a>
             <a href="#" class="swiper-slide card-blog">
-              <img
-                src="./img/blog-card-second.png"
-                alt="blog-card"
-                class="blog-card-image"
-              />
+            <picture class="blog-card-image">
+                <source type="image/webp" srcset="img/blog-card-second.webp" class="blog-card-image" class="blog-card-image">
+                <source type="image/png" srcset="img/blog-card-second.png" class="blog-card-image" class="blog-card-image">
+                <img src="img/blog-card-second.png" alt="blog-card" class="blog-card-image" class="blog-card-image">
+            </picture>
               <h3 class="blog-card-title">
                 Сложно сказать, почему жизнь прекрасна
               </h3>
@@ -380,11 +393,11 @@
               </p>
             </a>
             <a href="#" class="swiper-slide card-blog">
-              <img
-                src="./img/blog-card-second.png"
-                alt="blog-card"
-                class="blog-card-image"
-              />
+            <picture class="blog-card-image">
+                <source type="image/webp" srcset="img/blog-card-second.webp" class="blog-card-image">
+                <source type="image/png" srcset="img/blog-card-second.png" class="blog-card-image">
+                <img src="img/blog-card-second.png" alt="blog-card" class="blog-card-image">
+            </picture>
               <h3 class="blog-card-title">
                 Сложно сказать, почему жизнь прекрасна
               </h3>

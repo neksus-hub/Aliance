@@ -23,11 +23,11 @@
           <div class="swiper-wrapper">
             <!-- Slides -->
             <a href="#" class="swiper-slide card-blog">
-              <img
-                src="./img/blog-card-first.png"
-                alt="blog-card"
-                class="blog-card-image"
-              />
+              <picture class="blog-card-image">
+                <source type="image/webp" srcset="./img/blog-card-first.webp">
+                <source type="image/png" srcset="./img/blog-card-first.png">
+                <img src="./img/blog-card-first.png" alt="blog-card">
+              </picture>
               <h3 class="blog-card-title">
                 Современная методология разработки одухотворила всех причастных
               </h3>
@@ -38,11 +38,15 @@
               </p>
             </a>
             <a href="#" class="swiper-slide card-blog">
-              <img
-                src="./img/blog-card-second.png"
-                alt="blog-card"
-                class="blog-card-image"
-              />
+
+            
+            <picture class="blog-card-image">
+                <source type="image/webp" srcset="./img/blog-card-second.webp">
+                <source type="image/png" srcset="./img/blog-card-second.png">
+                <img src="./img/blog-card-second.png" alt="blog-card">
+            </picture>
+
+
               <h3 class="blog-card-title">
                 Сложно сказать, почему жизнь прекрасна
               </h3>
@@ -53,11 +57,16 @@
               </p>
             </a>
             <a href="#" class="swiper-slide card-blog">
-              <img
-                src="./img/blog-card-second.png"
-                alt="blog-card"
-                class="blog-card-image"
-              />
+
+
+
+              <picture class="blog-card-image">
+                <source type="image/webp" srcset="./img/blog-card-second.webp">
+                <source type="image/png" srcset="./img/blog-card-second.png">
+                <img src="./img/blog-card-second.png" alt="blog-card">
+              </picture>
+
+
               <h3 class="blog-card-title">
                 Сложно сказать, почему жизнь прекрасна
               </h3>
