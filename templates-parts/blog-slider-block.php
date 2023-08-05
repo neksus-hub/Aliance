@@ -23,11 +23,11 @@
           <div class="swiper-wrapper">
             <!-- Slides -->
             <a href="#" class="swiper-slide card-blog">
-              <picture class="blog-card-image">
-                <source type="image/webp" srcset="./img/blog-card-first.webp">
-                <source type="image/png" srcset="./img/blog-card-first.png">
-                <img src="./img/blog-card-first.png" alt="blog-card">
-              </picture>
+            <picture class="blog-card-image">
+                <source type="image/webp" srcset="img/blog-card-first.webp" class="blog-card-image" class="blog-card-image" class="blog-card-image">
+                <source type="image/png" srcset="img/blog-card-first.png" class="blog-card-image" class="blog-card-image" class="blog-card-image">
+                <img src="img/blog-card-first.png" alt="blog-card" class="blog-card-image" class="blog-card-image" class="blog-card-image">
+            </picture>
               <h3 class="blog-card-title">
                 Современная методология разработки одухотворила всех причастных
               </h3>
@@ -41,9 +41,9 @@
 
             
             <picture class="blog-card-image">
-                <source type="image/webp" srcset="./img/blog-card-second.webp">
-                <source type="image/png" srcset="./img/blog-card-second.png">
-                <img src="./img/blog-card-second.png" alt="blog-card">
+                <source type="image/webp" srcset="img/blog-card-second.webp" class="blog-card-image" class="blog-card-image">
+                <source type="image/png" srcset="img/blog-card-second.png" class="blog-card-image" class="blog-card-image">
+                <img src="img/blog-card-second.png" alt="blog-card" class="blog-card-image" class="blog-card-image">
             </picture>
 
 
@@ -60,11 +60,11 @@
 
 
 
-              <picture class="blog-card-image">
-                <source type="image/webp" srcset="./img/blog-card-second.webp">
-                <source type="image/png" srcset="./img/blog-card-second.png">
-                <img src="./img/blog-card-second.png" alt="blog-card">
-              </picture>
+            <picture class="blog-card-image">
+                <source type="image/webp" srcset="img/blog-card-second.webp" class="blog-card-image" class="blog-card-image">
+                <source type="image/png" srcset="img/blog-card-second.png" class="blog-card-image" class="blog-card-image">
+                <img src="img/blog-card-second.png" alt="blog-card" class="blog-card-image" class="blog-card-image">
+            </picture>
 
 
               <h3 class="blog-card-title">

@@ -1,3 +1,4 @@
+@import url(normalize.css);
 * {
   box-sizing: border-box;
 }
@@ -28,6 +29,9 @@ body {
   padding-top: 5.875rem;
   min-height: 100vh;
 }
+.no-webp .header-bg-img {
+  background-image: url(../img/interior-bg-img.png);
+}
 .header-bg-img {
   background-image: url(../img/interior-bg-img.webp);
 }
@@ -35,8 +39,11 @@ body {
   background: var(--bg-2, #f0f2f5);
   margin-top: 6.6rem;
 }
-.header-bg-img {
+.no-webp header-bg-img {
   background-image: url(../img/about-header-bg.png);
+}
+.header-bg-img {
+  background-image: url(../img/about-header-bg.webp);
 }
 .header-bg-grey {
   background-color: var(--bg-2, #f0f2f5);
@@ -118,8 +125,11 @@ body {
   max-width: 95.875rem;
   margin: auto;
 }
-.header-img {
+.no-webp .header-img {
   background-image: url("../img/header-bg.png");
+}
+.header-img {
+  background-image: url("../img/header-bg.webp");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top left;
