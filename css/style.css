@@ -772,7 +772,7 @@ body {
 
 .card-blog {
   position: relative;
-  min-height: 26.7rem;
+  height: 26.7rem;
   text-decoration: none;
   color: white;
   padding: 3.125rem;
@@ -795,7 +795,6 @@ body {
   font-size: 1.75rem;
   font-weight: 400;
   line-height: 160%;
-  line-height: 158%;
   margin: 0;
   letter-spacing: 0.9px;
 }
@@ -2198,10 +2197,6 @@ body {
   .cta-form-footer {
     flex-direction: column;
   }
-  .cta-form-button {
-    width: 100%;
-    margin-bottom: 30px;
-  }
   .notify {
     margin-left: 0;
     width: 100%;
@@ -2240,5 +2235,122 @@ body {
   .primary-button-prev,
   .primary-button-next {
     height: 40px;
+  }
+  .card-blog {
+    height: 19.7rem;
+    padding: 1.9rem 1.9rem 2rem 2rem;
+  }
+  .blog-card-title {
+    letter-spacing: 1.5px;
+    line-height: 132%;
+  }
+  .blog-slider-footer {
+    height: 42px;
+    align-items: center;
+  }
+  .section-blog {
+    margin-bottom: 10rem;
+  }
+  .section-cta {
+    padding-top: 4.25rem;
+  }
+  .form-title {
+    letter-spacing: -0.7px;
+    margin-bottom: 1.6rem;
+  }
+  .form-text {
+    margin-bottom: 28px;
+  }
+  .input-group {
+    height: 6.125rem;
+  }
+  .input-group-label {
+    margin-top: 1rem;
+    margin-left: 1rem;
+    font-size: 15px;
+  }
+  .input-group-wrapper {
+    margin-bottom: 1.1rem;
+  }
+  .cta-form-button {
+    height: 6.1rem;
+    font-size: 1.4rem;
+    margin-bottom: 19px;
+    width: 100%;
+  }
+  .bg-grey {
+    padding-bottom: 0;
+  }
+  .cta-form {
+    margin-bottom: 0rem;
+  }
+  .logo-footer {
+    height: 72px;
+    width: 160px;
+    margin-bottom: 1.875rem;
+  }
+  .footer-top {
+    padding-top: 4rem;
+    margin-bottom: 27px;
+  }
+  .footer-phone {
+    font-size: 2.7rem;
+    margin-bottom: 2.2rem;
+  }
+  .footer-info {
+    margin-bottom: 1rem;
+    gap: 1.1rem;
+  }
+  .footer-social {
+    margin-top: 2rem;
+    gap: 1.6rem;
+  }
+  .footer-info-mail {
+    font-size: 1.4rem;
+  }
+  .footer-info-adress {
+    font-size: 1.35rem;
+    width: 100%;
+  }
+  .footer-bottom {
+    padding-top: 2.9rem;
+  }
+  .footer-menu-title {
+    font-size: 1.45rem;
+    margin-bottom: 2rem;
+  }
+  .footer-menu-list {
+    padding-left: 2.25rem;
+  }
+  .footer-menu-link {
+    font-size: 1.38rem;
+  }
+  .footer-menu-wrapper {
+    margin-bottom: 2rem;
+  }
+  .footer-menu-list-third {
+    margin-top: 3rem;
+    padding-left: 0;
+  }
+  .footer-menu-item-bottom {
+    margin-bottom: 3rem;
+  }
+  .footer-menu-link-bold {
+    letter-spacing: 0.5px;
+  }
+  .footer-wrapper-legal {
+    padding-top: 2.4rem;
+  }
+  .copyright {
+    font-size: 11.3px;
+  }
+  .legal-text {
+    margin-bottom: 9px;
+  }
+  .legal {
+    margin-bottom: 11px;
+  }
+  .made-in {
+    margin-right: 1rem;
   }
 }

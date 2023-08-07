@@ -5,9 +5,9 @@
             <svg class="logo-svg logo-footer" width="140px" height="44px">
               <use href="./img/sprite.svg#logo-dark"></use>
             </svg>
-            <a href="tel:+79996861014" class="footer-phone">+7 (999) 686-10-14</a>
+            <a href="tel:+79996861014" class="footer-phone">+7 (499) 686-10-14</a>
             <div class="footer-info">
-              <svg class="footer-info-icon" height="20px" width="20px">
+              <svg class="footer-info-icon" height="24px" width="24px">
                 <use href="./img/second-sprite.svg#mark"></use>
               </svg>
               <address class="footer-info-adress">
@@ -16,7 +16,7 @@
             </div>
             <!-- /.footer-info -->
             <div class="footer-info">
-              <svg class="footer-info-icon" height="20px" width="20px">
+              <svg class="footer-info-icon" height="24px" width="24px">
                 <use href="./img/second-sprite.svg#mail"></use>
               </svg>
               <a href="mailto:a.dragunov@tdaliance.ru" class="footer-info-mail"
@@ -25,12 +25,12 @@
             </div>
             <div class="footer-social">
               <a href="#" class="footer-social-link">
-                <svg class="footer-info-icon" height="20px" width="20px">
+                <svg class="footer-info-icon" height="24px" width="24px">
                   <use href="./img/second-sprite.svg#vk"></use>
                 </svg>
               </a>
               <a href="#" class="footer-social-link">
-                <svg class="footer-info-icon" height="20px" width="20px">
+                <svg class="footer-info-icon" height="24px" width="24px">
                   <use href="./img/second-sprite.svg#inst"></use>
                 </svg>
               </a>
@@ -85,17 +85,17 @@
           <!-- /.footer-menu-wrapper -->
           <div class="footer-menu-wrapper footer-menu-wrapper-third">
             <ul class="footer-menu-list footer-menu-list-third">
-              <li class="footer-menu-item">
+              <li class="footer-menu-item footer-menu-item-bottom">
                 <a href="#" class="footer-menu-link footer-menu-link-bold"
                   >О компании</a
                 >
               </li>
-              <li class="footer-menu-item">
+              <li class="footer-menu-item footer-menu-item-bottom">
                 <a href="#" class="footer-menu-link footer-menu-link-bold"
                   >Новости</a
                 >
               </li>
-              <li class="footer-menu-item">
+              <li class="footer-menu-item footer-menu-item-bottom">
                 <a href="#" class="footer-menu-link footer-menu-link-bold"
                   >Контакты</a
                 >
@@ -120,7 +120,7 @@
             </div>
           </div>
           <div class="footer-author">
-            <span class="made-in">Сделано в</span>
+            <span class="made-in">Дизайн и разработка</span>
             <svg class="made-in-icon" height="11px" width="52px">
               <use href="./img/sprite.svg#RUSO"></use>
             </svg>
