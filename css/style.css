@@ -1047,7 +1047,7 @@ body {
 
 .footer-menu-colum-2 {
   columns: 20rem auto;
-  min-width: 48rem;
+  margin-right: 27rem;
 }
 
 .footer-menu-link {
@@ -1469,6 +1469,7 @@ body {
 
   .footer-menu-colum-2 {
     columns: 1;
+    margin: 0;
   }
   .footer-menu-wrapper:last-child {
     margin-left: 0;
